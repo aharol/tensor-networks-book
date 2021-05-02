@@ -1,0 +1,8 @@
+- file: intro
+  numbered: true
+
+- part: A. Tensors and tensor contractions
+  numbered: true
+  sections:
+    - file: math/tensors-and-contractions
+    - file: math/tensornetwork-library-basics
