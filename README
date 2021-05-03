@@ -1,0 +1,9 @@
+# Building the HTML version (default)
+```sh
+$ jupyter-book build ./
+```
+
+# Buidling the PDF book
+```sh
+jupyter-book build ./ --builder pdflatex
+```

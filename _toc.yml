@@ -1,8 +1,15 @@
 - file: intro
   numbered: true
 
-- part: A. Tensors and tensor contractions
+- part: A. Basics of tensors and tensor networks
   numbered: true
   sections:
-    - file: math/tensors-and-contractions
-    - file: math/tensornetwork-library-basics
+    - file: Ch1-Basics/theory/tensors-and-contractions
+    - file: Ch1-Basics/code/basics-code
+
+- part: B. Matrix Product States (MPS)
+  numbered: true
+  sections:
+    - file: Ch2-MPS/theory/intro
+    - file: Ch2-MPS/theory/canonical-forms
+    - file: Ch2-MPS/code/mps-code
