@@ -10,6 +10,7 @@
 - part: B. Matrix Product States (MPS)
   numbered: true
   sections:
-    - file: Ch2-MPS/theory/intro
+    - file: Ch2-MPS/theory/intro-to-mps
+    - file: Ch2-MPS/theory/area-laws-of-entanglement
     - file: Ch2-MPS/theory/canonical-forms
     - file: Ch2-MPS/code/mps-code

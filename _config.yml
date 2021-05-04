@@ -20,7 +20,7 @@ bibtex_bibfiles:
   - Ch1-Basics/theory/references.bib
 
 bibtex_reference_style: 
-  - super
+  - supercite
 
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
@@ -52,3 +52,4 @@ parse:
     - dollarmath
     - linkify
     - substitution
+    - empheq
