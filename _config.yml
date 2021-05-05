@@ -52,4 +52,5 @@ parse:
     - dollarmath
     - linkify
     - substitution
+    - dsfont
     - empheq
