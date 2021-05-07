@@ -5,7 +5,7 @@
   numbered: true
   sections:
     - file: Ch1-Basics/theory/tensors-and-contractions
-    - file: Ch1-Basics/code/basics-code
+    - file: Ch1-Basics/code/basics
 
 - part: B. Matrix Product States (MPS)
   numbered: true
