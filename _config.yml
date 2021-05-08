@@ -48,9 +48,8 @@ sphinx:
 parse:
   myst_enable_extensions:
     - amsmath
-    - colon_fence
     - dollarmath
+    - colon_fence
     - linkify
     - substitution
-    - dsfont
-    - empheq
+  
