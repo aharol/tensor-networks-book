@@ -14,4 +14,6 @@
     - file: Ch2-MPS/theory/area-laws-of-entanglement
     - file: Ch2-MPS/theory/computing-expectation-values
     - file: Ch2-MPS/theory/canonical-forms
+    - file: Ch2-MPS/theory/schmidt-decomposition 
+    - file: Ch2-MPS/theory/translationally-invariant-mps
     - file: Ch2-MPS/code/mps-code
