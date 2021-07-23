@@ -1,19 +1,18 @@
-- file: intro
+format: jb-book
+root: intro
+parts:
+- caption: A. Basics of tensors and tensor networks
   numbered: true
-
-- part: A. Basics of tensors and tensor networks
+  chapters:
+  - file: Ch1-Basics/theory/tensors-and-contractions
+  - file: Ch1-Basics/code/basics-of-pytorch
+- caption: B. Matrix Product States (MPS)
   numbered: true
-  sections:
-    - file: Ch1-Basics/theory/tensors-and-contractions
-    - file: Ch1-Basics/code/basics-of-pytorch
-
-- part: B. Matrix Product States (MPS)
-  numbered: true
-  sections:
-    - file: Ch2-MPS/theory/intro-to-mps
-    - file: Ch2-MPS/theory/area-laws-of-entanglement
-    - file: Ch2-MPS/theory/computing-expectation-values
-    - file: Ch2-MPS/theory/canonical-forms
-    - file: Ch2-MPS/theory/schmidt-decomposition 
-    - file: Ch2-MPS/theory/translationally-invariant-mps
-    - file: Ch2-MPS/code/mps-code
+  chapters:
+  - file: Ch2-MPS/theory/intro-to-mps
+  - file: Ch2-MPS/theory/area-laws-of-entanglement
+  - file: Ch2-MPS/theory/computing-expectation-values
+  - file: Ch2-MPS/theory/canonical-forms
+  - file: Ch2-MPS/theory/schmidt-decomposition
+  - file: Ch2-MPS/theory/translationally-invariant-mps
+  - file: Ch2-MPS/code/mps-code
